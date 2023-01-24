@@ -5,8 +5,7 @@
 <li>CSS</li>
 <li>JS</li>
 
-<h2>
-    <li>FIGMA</li>
-    <li>COOLORS</li>
-    <li>BEHANCE</li>
-</h2>
+<h2>Auxiliadores</h2>
+<li>FIGMA</li>    
+<li>COOLORS</li>    
+<li>BEHANCE</li>
