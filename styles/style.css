@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: none;
+}
+body{
+    background-color: #080708;
+
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: #DF2935;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}input{
+    flex-direction: column;
+}
+.typing{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button_operations{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+input{
+    width: 409px;
+    height: 58px;
+    border-radius: 20px;
+    border:none;
+    background: #FDCA40;
+    opacity: 0.5;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    
+
+}
+
+::placeholder{
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 10px;
+    
+}
+button{
+    width: 200px;
+    height: 58px;   
+    background: #3772FF;
+    opacity: 0.5;
+    border-radius: 20px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+input ::-ms-value{
+    padding-left: 10px;
+}
+#pai{
+    display: block;
+}
+#result{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
