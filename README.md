@@ -13,3 +13,7 @@
 
 <h3>Link do site</h3>
 <a href="https://vermillion-croquembouche-748f4d.netlify.app/">Link</a>
+
+
+<h4>Compatível:</h4>
+    <li>Desktop
