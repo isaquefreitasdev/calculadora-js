@@ -8,8 +8,6 @@ let soma = () => {
     if(n1.value == "" || n2.value === ""){
         alert("Preencha todos os campos")
 
-    }else if(n1.value.indexOf("ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijklmnopqrstuvwxyz") == true || n2.value.search("ABCDEFGHIJKLMNOPQRSTUVWXabcdefghijklmnopqrstuvwxyz") == true){
-        alert('Só numeros')
     }
     else{
     document.getElementById('result').innerHTML = `O resultado da soma foi:${calc}`
